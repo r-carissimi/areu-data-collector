@@ -26,3 +26,4 @@ Based on superficial pure experience data is updated every 3 minutes.
 - [ ] Let the user choose the data folder
 - [ ] Give the option to save data in a single file
 - [ ] Give the option to run the script forever
+- [ ] Explain API keys
