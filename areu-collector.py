@@ -1,6 +1,7 @@
 import requests
 import csv
 import os
+import sys
 
 SORTED_PROPERTIES = [
 	"aat",
@@ -87,7 +88,7 @@ class Collector:
 			self.token = None
 
 	def save(self):
-		DATA_DIR = "./data/"
+		DATA_DIR = sys.path[0] + "/data/"
 
 		if(not os.path.isdir(DATA_DIR)):
 			os.mkdir(DATA_DIR)
